@@ -69,3 +69,42 @@ The project will keep the public core:
 - no unlicensed audio or media assets
 
 Future AI-assisted personalization, if added, should require explicit user consent, clear privacy controls, and professional review for high-risk use cases.
+
+## Exact form fields
+
+These fields are drafted to fit the OpenAI form's 500-character limits.
+
+### GitHub username
+
+hailiangziyuan
+
+### GitHub repository URL
+
+https://github.com/hailiangziyuan/take-me-home
+
+### Describe your role
+
+Primary maintainer
+
+### Why does this repository qualify?
+
+Take Me Home is a new local-first Android OSS project for privacy-preserving mental-health literacy and emotional self-practice. It addresses a public-interest gap: gentle guided exercises without accounts, tracking, cloud sync, or hidden data upload. I maintain the code, safety/privacy boundaries, docs, roadmap, and releases.
+
+### Interested in
+
+Codex Security; API credits for my project
+
+### How will you use API credits for your project?
+
+I will use credits for maintainer-side automation: PR summaries, privacy and safety checks for script changes, documentation translation, release notes, and optional review tools that flag hidden networking, unsafe clinical claims, or unlicensed media before public releases.
+
+### Anything else?
+
+The project is intentionally not a therapy, diagnosis, or crisis-response tool. The open-source core is local-first and keeps user records on device. The long-term goal is a safe, transparent pattern for personalized self-practice tools with explicit professional and emergency-care boundaries.
+
+### Missing private fields
+
+- First name
+- Last name
+- Email associated with the ChatGPT account
+- OpenAI Organization ID
