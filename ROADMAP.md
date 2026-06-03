@@ -25,6 +25,14 @@
 - [ ] Add English README
 - [ ] Add contributor guide for licensed audio packs
 
+## 0.4 Personalization Workflow
+
+- [ ] Add a safe personalization guide
+- [ ] Add a private script template format
+- [ ] Add checks that prevent private scripts from being committed by accident
+- [ ] Add examples using fictional, non-identifiable personas only
+- [ ] Explore a local-only generator for creating private practice variants
+
 ## Long-Term Direction
 
 The public core should remain local-first and privacy-preserving. Future personalization should be opt-in, transparent, and reviewed against safety boundaries before it is used with real users.

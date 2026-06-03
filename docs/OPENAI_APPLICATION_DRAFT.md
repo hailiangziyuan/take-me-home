@@ -14,7 +14,7 @@ I am the primary maintainer and original creator of this Android project. I desi
 
 ## Project summary
 
-Take Me Home is a local-first Android self-practice app for gentle mental-health literacy and emotional self-regulation exercises. It provides a 25-minute guided routine with stages for grounding, mindful observation, self-compassion, cognitive reframing, and a small daily commitment.
+Take Me Home is a local-first Android self-practice app for gentle mental-health literacy and emotional self-regulation exercises. It provides a 25-minute guided routine with stages for grounding, mindful observation, self-compassion, cognitive reframing, and a small daily commitment. Its long-term direction is to help people create private, personalized practice apps after careful self-exploration or professional support, while keeping the public repository generic and privacy-safe.
 
 The app intentionally avoids accounts, servers, cloud sync, analytics, or hidden data upload. Practice records stay on the user's device through Room, while settings stay in DataStore. It is not positioned as therapy, diagnosis, medical advice, or crisis response.
 
@@ -88,7 +88,7 @@ Primary maintainer
 
 ### Why does this repository qualify?
 
-Take Me Home is a new local-first Android OSS project for privacy-preserving mental-health literacy and emotional self-practice. It addresses a public-interest gap: gentle guided exercises without accounts, tracking, cloud sync, or hidden data upload. I maintain the code, safety/privacy boundaries, docs, roadmap, and releases.
+Take Me Home is a local-first Android OSS project for privacy-preserving mental-health literacy and personalized self-practice. It offers a generic public core while encouraging private, user-owned customization after self-exploration or professional support. No accounts, tracking, cloud sync, or hidden upload.
 
 ### Interested in
 
@@ -100,7 +100,7 @@ I will use credits for maintainer-side automation: PR summaries, privacy and saf
 
 ### Anything else?
 
-The project is intentionally not a therapy, diagnosis, or crisis-response tool. The open-source core is local-first and keeps user records on device. The long-term goal is a safe, transparent pattern for personalized self-practice tools with explicit professional and emergency-care boundaries.
+The project is intentionally not therapy, diagnosis, or crisis response. Its open-source core is generic and local-first; personal scripts should stay private. The long-term goal is a safe pattern for personalized self-practice tools with explicit professional and emergency-care boundaries.
 
 ### Missing private fields
 
