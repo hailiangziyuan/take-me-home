@@ -1,0 +1,21 @@
+<speak version="1.0"
+       xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:mstts="https://www.w3.org/2001/mstts"
+       xml:lang="zh-CN">
+    <voice name="zh-CN-XiaoxiaoNeural">
+        <mstts:express-as style="gentle" styledegree="2">
+            <prosody rate="-28%" pitch="-4%">
+                <break time="2s"/>
+                现在，<break time="1.2s"/>请慢慢，<break time="1.2s"/>坐好。<break time="3.5s"/>
+                让双脚，<break time="1.2s"/>轻轻踏在，<break time="1.2s"/>地面上。<break time="4s"/>
+                让身体，<break time="1s"/>找到一个，<break time="1s"/>稳定、<break time="0.8s"/>舒服、<break time="0.8s"/>不费力的位置。<break time="4s"/>
+                不需要，<break time="1.2s"/>坐得很完美。<break time="3s"/>
+                不需要，<break time="1.2s"/>表现得很好。<break time="3s"/>
+                这一刻，<break time="1.5s"/>你只需要，<break time="1.2s"/>回来。<break time="3s"/>
+                回到身体。<break time="2.5s"/>
+                回到呼吸。<break time="2.5s"/>
+                回到这里。<break time="5s"/>
+            </prosody>
+        </mstts:express-as>
+    </voice>
+</speak>

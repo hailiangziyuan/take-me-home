@@ -1,0 +1,10 @@
+.gradle/
+build/
+local.properties
+
+*/build/
+
+# Local/private audio assets. The app falls back to Android TTS when cue files
+# are not present, so public builds should not depend on private voice files.
+app/src/main/res/raw/*.mp3
+voice_experiments/outputs/

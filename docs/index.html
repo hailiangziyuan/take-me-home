@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>带我回家</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #102235;
+        --muted: #5f6f7f;
+        --paper: #f7f4ec;
+        --panel: #ffffff;
+        --line: #d8ded7;
+        --sage: #7f9c8a;
+        --deep: #21364f;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.7;
+      }
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 56px 22px 72px;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2.2rem, 7vw, 4.6rem);
+        line-height: 1.05;
+        font-weight: 750;
+      }
+      .lead {
+        max-width: 680px;
+        color: var(--muted);
+        font-size: 1.16rem;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 28px 0 34px;
+      }
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 650;
+      }
+      .primary {
+        color: white;
+        background: var(--deep);
+      }
+      .secondary {
+        color: var(--deep);
+        border: 1px solid var(--line);
+        background: var(--panel);
+      }
+      section {
+        border-top: 1px solid var(--line);
+        padding-top: 24px;
+        margin-top: 24px;
+      }
+      h2 {
+        margin: 0 0 10px;
+        font-size: 1.35rem;
+      }
+      ul {
+        padding-left: 1.2rem;
+      }
+      .note {
+        background: var(--panel);
+        border-left: 5px solid var(--sage);
+        padding: 16px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>带我回家</h1>
+      <p class="lead">一个本地优先的 Android 心理自助练习 App，把温和的 25 分钟练习变成可执行、可记录、可坚持的日课。</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/hailiangziyuan/take-me-home">查看 GitHub</a>
+        <a class="button secondary" href="https://github.com/hailiangziyuan/take-me-home/blob/master/PRIVACY.md">隐私说明</a>
+      </div>
+      <section>
+        <h2>公益核心</h2>
+        <ul>
+          <li>身体落地、正念观察、内在安抚、信念重构、今日行动承诺</li>
+          <li>Android TTS 本地朗读，不依赖云服务</li>
+          <li>Room 本地记录，DataStore 本地设置</li>
+          <li>不需要账号，不上传隐私数据</li>
+        </ul>
+      </section>
+      <section>
+        <h2>安全边界</h2>
+        <p class="note">这个 App 是自我练习辅助工具，不替代心理咨询、精神科诊疗或紧急求助。如果出现强烈自伤、伤人冲动，或无法控制行为，请立即联系身边可信任的人、专业人员或当地紧急服务。</p>
+      </section>
+      <section>
+        <h2>可持续方向</h2>
+        <p>开源仓库提供通用工具和安全边界。未来可以围绕个性化脚本审核、授权音频包、机构部署和专业陪伴流程建立可持续服务。</p>
+      </section>
+    </main>
+  </body>
+</html>

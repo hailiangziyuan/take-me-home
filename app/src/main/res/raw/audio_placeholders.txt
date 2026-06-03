@@ -1,0 +1,21 @@
+Background audio files:
+
+- tide_soft.mp3 is bundled as the default tide/ocean background.
+- ocean_waves.mp3
+- rain_soft.mp3
+- stream_soft.mp3
+
+The app checks raw resources by name at runtime. If an MP3 is missing, the app
+continues without background audio instead of failing to compile.
+
+Guided voice files:
+
+To avoid a machine TTS voice, add local recordings named:
+
+- cue_001.mp3
+- cue_002.mp3
+- ...
+- cue_032.mp3
+
+The app plays a cue recording first. If that recording is missing, it falls back
+to Android TextToSpeech for that cue.
